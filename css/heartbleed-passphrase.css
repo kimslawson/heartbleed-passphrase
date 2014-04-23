@@ -1,0 +1,34 @@
+@import 'normalize.css';
+@import 'fluidbaselinegrid.css';
+@import 'typeplate.css';
+@import 'franklingothic.css';
+@import 'ebgaramond.css';
+
+body {
+    font-family: 'eb_garamond08_regular';
+    font-family: 'eb_garamond08_regular', Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    background-color: white;
+    color: #333333;
+    text-align: left;
+}
+h1, h2, h3, h4, h5 {
+/*    font-family: 'franklin_gothic_fsbook' !important; */
+    font-family: 'franklin_gothic_fsbook', "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif !important;
+}
+
+#header, #container {
+    max-width: 38em;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+#header {
+    text-align: center;
+}
+#passphrase {
+    border: 1px solid #999999;
+    padding: 20px;
+    margin: 20px 0;
+}
+#options {
+    
+}
