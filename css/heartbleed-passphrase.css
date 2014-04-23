@@ -42,5 +42,8 @@ h1, h2, h3, h4, h5 {
         width: 150px;
         height: auto;
     }
+    h1.gamma {
+        font-size: 1.33333rem;
+    }
 }
 
