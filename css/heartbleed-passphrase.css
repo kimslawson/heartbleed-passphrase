@@ -44,9 +44,19 @@ h1, h2, h3, h4, h5, form input {
 form div {
     display: block;
     clear: both;
+    margin: 20px 0;
 }
 form label {
     margin-right: 10px;
+}
+form input {
+    background-color: #b90a13;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    -webkit-border-radius: 50px;
+       -moz-border-radius: 50px;
+            border-radius: 50px;
 }
 #options {
     
