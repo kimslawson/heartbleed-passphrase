@@ -11,7 +11,7 @@ body {
     color: #333333;
     text-align: left;
 }
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, form input {
 /*    font-family: 'franklin_gothic_fsbook' !important; */
     font-family: 'franklin_gothic_fsbook', "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif !important;
 }
@@ -39,6 +39,14 @@ h1, h2, h3, h4, h5 {
     padding: 20px;
     margin: 20px 0;
     text-indent: 0;
+}
+
+form div {
+    display: block;
+    clear: both;
+}
+form label {
+    margin-right: 10px;
 }
 #options {
     
