@@ -14,6 +14,7 @@ body {
 h1, h2, h3, h4, h5 {
 /*    font-family: 'franklin_gothic_fsbook' !important; */
     font-family: 'franklin_gothic_fsbook', "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif !important;
+    word-wrap: normal;
 }
 
 #header, #container {
