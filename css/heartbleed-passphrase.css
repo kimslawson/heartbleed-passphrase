@@ -14,7 +14,15 @@ body {
 h1, h2, h3, h4, h5 {
 /*    font-family: 'franklin_gothic_fsbook' !important; */
     font-family: 'franklin_gothic_fsbook', "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif !important;
+}
+
+.no-hyphens {
     word-wrap: normal;
+    word-break: keep-all;
+     -webkit-hyphens: none;
+        -moz-hyphens: none;
+         -ms-hyphens: none;
+             hyphens: none;
 }
 
 #header, #container {
@@ -31,7 +39,6 @@ h1, h2, h3, h4, h5 {
     padding: 20px;
     margin: 20px 0;
     text-indent: 0;
-    word-wrap: normal;
 }
 #options {
     
