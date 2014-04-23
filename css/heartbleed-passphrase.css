@@ -25,9 +25,11 @@ h1, h2, h3, h4, h5 {
     text-align: center;
 }
 #passphrase {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
     border: 1px solid #999999;
     padding: 20px;
     margin: 20px 0;
+    text-indent: 0;
 }
 #options {
     
