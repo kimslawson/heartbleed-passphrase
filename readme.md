@@ -9,3 +9,7 @@ This tool generates secure, memorable passphrases. It is based upon the [XKCD pa
 ##Development
 
 This tool is still in development. As such, the code should be considered pre-alpha. Do not use this for production-quality work. You have been warned.
+
+###TODO:
+
+* Currently, passphrase generation is nonfunctional, pending porting XKCD password generator to Javascript.
