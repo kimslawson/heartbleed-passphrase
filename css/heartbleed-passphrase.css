@@ -40,7 +40,15 @@ h1, h2, h3, h4, h5, form input {
     margin: 20px 0;
     text-indent: 0;
 }
-
+#passphrase ul {
+    margin-bottom: 0;
+}
+#passphrase.single ul {
+    list-style: none;
+}
+form {
+    margin-bottom: 40px;
+}
 form div {
     display: block;
     clear: both;
