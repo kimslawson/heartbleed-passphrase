@@ -15,7 +15,12 @@ h1, h2, h3, h4, h5, form input {
 /*    font-family: 'franklin_gothic_fsbook' !important; */
     font-family: 'franklin_gothic_fsbook', "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif !important;
 }
-
+a:link, a:visited {
+    color: #b90a13;
+}
+a:hover, a:active {
+    color: black;
+}
 .no-hyphens {
     word-wrap: normal;
     word-break: keep-all;
