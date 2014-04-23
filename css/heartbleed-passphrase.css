@@ -30,6 +30,7 @@ h1, h2, h3, h4, h5 {
     padding: 20px;
     margin: 20px 0;
     text-indent: 0;
+    word-wrap: normal;
 }
 #options {
     
