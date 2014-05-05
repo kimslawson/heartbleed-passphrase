@@ -4,6 +4,10 @@
 @import 'franklingothic.css';
 @import 'ebgaramond.css';
 
+* {
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+}
 body {
     font-family: 'eb_garamond08_regular';
     font-family: 'eb_garamond08_regular', Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
@@ -20,6 +24,12 @@ a:link, a:visited {
 }
 a:hover, a:active {
     color: black;
+}
+.supplemental {
+    color: #aaaaaa;
+}
+p.supplemental {
+    font-size: 0.75em;
 }
 .no-hyphens {
     word-wrap: normal;
@@ -51,7 +61,19 @@ a:hover, a:active {
 #passphrase.single ul {
     list-style: none;
 }
+#sample {
+    float: right;
+    width: 49%;
+    font-size: .6em;
+    letter-spacing: -1px;
+    word-spacing: 1ex;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #aaa;
+}
 form {
+    float: left;
+    width: 49%;
     margin-bottom: 40px;
 }
 form div {
@@ -92,6 +114,10 @@ form .submit input:hover, form .submit input:active {
     }
     h1.gamma {
         font-size: 1.33333rem;
+    }
+    form, #sample {
+        width: 100%;
+        float: none;
     }
 }
 
