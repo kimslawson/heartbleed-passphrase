@@ -35,31 +35,37 @@
               <form action="#" onsubmit="return generatePassphrase(this);">
                   <div class="select">                      
                       <label>Word list:</label>
-                      <select>
-                          <option>2of12.txt</option>
-                          <option>3asl.txt</option>
+                      <select id="wordlist">
+                          <option id="password_building_block_dict.txt">password_building_block_dict.txt</option>
+                          <option id="2of12.txt">2of12.txt</option>
+                          <option id="3asl.txt">3asl.txt</option>
                       </select>
                   </div>
                   <div class="input">                      
                       <label>Number of words:</label>
-                      <input type="text" size="2" value="4">
+                      <input id="numwords" type="text" size="2" value="4">
                   </div>
                   <div class="input">                      
                       <label>Minimum characters per word:</label>
-                      <input type="text" size="2" value="5">
+                      <input id="min_length" type="text" size="2" value="5">
                   </div>
-                  <div class="input">                      
+                  <div class="input">             
                       <label>Maximum characters per word:</label>
-                      <input type="text" size="2" value="9">
+                      <input id="max_length" type="text" size="2" value="9">
                   </div>
                   <div class="input">                      
                       <label>Number of passphrases to generate:</label>
-                      <input type="text" size="2" value="1">
+                      <input id="count" type="text" size="2" value="1">
                   </div>
                   <div class="input">                      
                       <label>Acrostic to use:</label>
-                      <input class="acrostic" type="text" size="8" value="">
+                      <input id="acrostic" class="acrostic" type="text" size="8" value="">
                       <p class="supplemental">(e.g., &lsquo;face&rsquo; yields &ldquo;floozy alcoholic clueless email&rdquo;)</p>
+                  </div>
+                  <div class="input">                      
+                      <label>Delimiter between words:</label>
+                      <input id="delim" class="delim" type="text" size="1" value=" ">
+                      <p class="supplemental">(some systems require punctuation)</p>
                   </div>
                   <div class="submit"><input type="submit" value="Generate Passphrase"></div>
               </form>
