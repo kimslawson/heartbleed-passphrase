@@ -20,7 +20,7 @@ console.log($('#sample').text());
 
         for (var p = 0; p < count; p++) {
             for (var n = 0; n < numwords; n++) {
-                wordLength = Math.floor(Math.random() * ((parseInt(max_length) - parseInt(min_length)) + 1) + parseInt(min_length));
+                wordLength = 1 + Math.floor(Math.random() * ((parseInt(max_length) - parseInt(min_length)) + 1) + parseInt(min_length));
 console.log("wordlen" + wordLength + " maxlen" + max_length + " minlen" + min_length);
                 word[n] = new Array(wordLength).join(blockEntity);
                 sampleText = sampleText + word[n] + delim;
