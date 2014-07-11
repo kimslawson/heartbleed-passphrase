@@ -72,6 +72,13 @@ console.log(valueSelected);
         redrawSample(wordlist, numwords, min_length, max_length, count, acrostic, delim);
     });
     $('select').change(function () {
+        var wordlist = $("#wordlist").val();
+        var numwords = $("#numwords").val();
+        var min_length = $("#min_length").val();
+        var max_length = $("#max_length").val();
+        var count = $("#count").val();
+        var acrostic = $("#acrostic").val();
+        var delim = $("#delim").val();
         var optionSelected = $(this).find("option:selected");
         var valueSelected  = optionSelected.val();
         var textSelected   = optionSelected.text();
